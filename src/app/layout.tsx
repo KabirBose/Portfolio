@@ -1,12 +1,12 @@
 import "./globals.css";
-import { Space_Mono } from "next/font/google";
-import type React from "react"; // Import React
+import { Jersey_10 } from "next/font/google";
+import type React from "react";
 
-const spaceMono = Space_Mono({ subsets: ["latin"], weight: ["400", "700"] });
+const jersey = Jersey_10({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata = {
-  title: "My Portfolio",
-  description: "Welcome to my web development portfolio",
+  title: "Kabir's Portfolio",
+  description: "Welcome to my web portfolio!",
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${spaceMono.className} bg-black text-white`}>
+      <body className={`${jersey.className} bg-black text-white`}>
         {children}
       </body>
     </html>
