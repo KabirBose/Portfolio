@@ -18,7 +18,7 @@ export default function Resume() {
         </li>
       </ul>
       <a
-        href="/path-to-your-resume.pdf"
+        href="https://drive.google.com/file/d/1MD7KnD6NfZfAYAvbErOiUr8HOmmRLYkM/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block border border-white p-2 invert-colors text-xl md:text-2xl"
