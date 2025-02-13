@@ -8,10 +8,14 @@ export default function Resume() {
       <ul className="list-disc list-inside mb-4 text-xl md:text-2xl">
         <li>1 year of professional experience in a data centre environment</li>
         <li>
+          Strong understanding Cisco devices, configurations, and protocols
+        </li>
+        <li>
           Proficient in JavaScript, C++, Python, and respective frameworks
         </li>
-        <li>Strong understanding of responsive design and accessibility</li>
-        <li>Experience with CI/CD pipelines and cloud platforms</li>
+        <li>
+          Experience with Jira, Confluence, Git, and project management tools
+        </li>
       </ul>
       <a
         href="/path-to-your-resume.pdf"
@@ -19,7 +23,7 @@ export default function Resume() {
         rel="noopener noreferrer"
         className="inline-block border border-white p-2 invert-colors text-xl md:text-2xl"
       >
-        Download Full Resume
+        Download Resumé
       </a>
     </section>
   );

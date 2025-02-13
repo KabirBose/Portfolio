@@ -1,21 +1,16 @@
 export default function Projects() {
   const projects = [
     {
-      name: "E-commerce Platform",
+      name: "Advanced Networking II Case Study",
       description:
-        "A full-stack e-commerce solution built with Next.js and Stripe integration.",
-      technologies: ["Next.js", "React", "Node.js", "Stripe", "MongoDB"],
+        "Configured a network with dynamic routing, switching, and security.",
+      technologies: ["OSPF", "BGP", "EIGRP", "PVST+", "IPSec"],
     },
     {
-      name: "Task Management App",
+      name: "Mintly Finance",
       description:
-        "A responsive task management application with real-time updates.",
-      technologies: ["React", "Firebase", "Tailwind CSS"],
-    },
-    {
-      name: "Portfolio Website",
-      description: "A customizable portfolio template for developers.",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+        "Personal finance app that uses AI to analyze your spending.",
+      technologies: ["TypeScript", "Next.js", "Plaid", "Tailwind CSS"],
     },
   ];
 
