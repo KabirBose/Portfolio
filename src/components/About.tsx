@@ -1,16 +1,16 @@
 export default function About() {
   return (
     <section id="about" className="mb-12">
-      <h2 className="text-xl md:text-2xl font-bold mb-4">$ cat about.txt</h2>
-      <p className="mb-4">
-        Hello! I'm a passionate web developer with a love for creating
-        interactive and responsive websites. My expertise includes React,
-        Next.js, and TypeScript, with a keen eye for design using Tailwind CSS.
-      </p>
-      <p>
-        When I'm not coding, you can find me exploring new technologies,
-        contributing to open-source projects, or enjoying a good cup of coffee
-        while solving coding challenges.
+      <h2 className="text-2xl md:text-4xl font-bold mb-4">$ cat about.txt</h2>
+      <p className="mb-4 text-xl md:text-2xl">Hi, I'm Kabir 👋</p>
+      <p className="mb-4 text-xl md:text-2xl">
+        I'm a 3rd-year Networking & IT student at Ontario Tech University and a
+        Network Engineering Intern at CBC (Canadian Broadcasting Corporation),
+        where I assist in migrating the standard LAN network to Cisco SDA. I
+        have a passion for problem-solving through personal projects and
+        continuously expanding my knowledge through certifications. When I'm not
+        at my desk, you can find me at the gym, trying new foods, or spending
+        time with friends and family.
       </p>
     </section>
   );
