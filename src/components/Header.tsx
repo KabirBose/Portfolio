@@ -33,7 +33,7 @@ export default function Header() {
 
   return (
     <header className="mb-12">
-      <h1 className="text-4xl md:text-6xl mb-4">Welcome to my portfolio</h1>
+      <h1 className="text-4xl md:text-6xl mb-4">Welcome to my portfolio 🎨</h1>
       <nav>
         <ul className="text-xl md:text-2xl flex flex-wrap gap-4">
           {[

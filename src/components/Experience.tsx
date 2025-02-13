@@ -26,7 +26,7 @@ export default function Experience() {
   return (
     <section id="experience" className="mb-12">
       <h2 className="text-2xl md:text-4xl mb-4">
-        $ grep "work history" experience.log
+        $ grep "work history" experience.log 👨‍💻
       </h2>
       <ul className="space-y-4">
         {experiences.map((exp, index) => (

@@ -1,7 +1,7 @@
 export default function Resume() {
   return (
     <section id="resume" className="mb-12">
-      <h2 className="text-2xl md:text-4xl mb-4">$ cat resume.pdf</h2>
+      <h2 className="text-2xl md:text-4xl mb-4">$ cat resume.pdf 📜</h2>
       <p className="mb-4 text-xl md:text-2xl">
         Here's a brief overview of my professional experience and skills:
       </p>

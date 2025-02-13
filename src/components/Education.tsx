@@ -1,7 +1,7 @@
 export default function Education() {
   const education = [
     {
-      degree: "Bachelor of Technology (Honours) in Networking & IT Security",
+      degree: "Bachelor of Technology (Honours) in Networking & IT",
       school: "Ontario Tech University",
       year: "Sep 2022 - Apr 2027",
     },
@@ -14,7 +14,7 @@ export default function Education() {
 
   return (
     <section id="education" className="mb-12">
-      <h2 className="text-2xl md:text-4xl mb-4">$ ls education/</h2>
+      <h2 className="text-2xl md:text-4xl mb-4">$ ls education/ 👨‍🎓</h2>
       <ul className="space-y-4">
         {education.map((edu, index) => (
           <li key={index} className="border border-white p-4 invert-colors">
