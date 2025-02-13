@@ -18,7 +18,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="mb-12">
-      <h2 className="text-2xl md:text-4xl font-bold mb-4">$ ./contact_me.sh</h2>
+      <h2 className="text-2xl md:text-4xl mb-4">$ ./contact_me.sh</h2>
       <div className="flex flex-wrap gap-4 mb-6">
         {socialLinks.map((link, index) => (
           <a
