@@ -3,12 +3,12 @@ export default function Education() {
     {
       degree: "Bachelor of Technology (Honours) in Networking & IT Security",
       school: "Ontario Tech University",
-      year: "2022 - 2027",
+      year: "Sep 2022 - Apr 2027",
     },
     {
       degree: "CCNA (Cisco Certified Network Associate)",
       school: "Cisco",
-      year: "2025",
+      year: "Dec 2025",
     },
   ];
 
@@ -20,7 +20,7 @@ export default function Education() {
           <li key={index} className="border border-white p-4 invert-colors">
             <h3 className="text-xl md:text-2xl">{edu.degree}</h3>
             <p className="text-xl md:text-2xl">{edu.school}</p>
-            <p className="text-lg md:text-xl">{edu.year}</p>
+            <p className="text-md md:text-lg">{edu.year}</p>
           </li>
         ))}
       </ul>

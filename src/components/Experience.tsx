@@ -1,49 +1,43 @@
-"use client";
-
-import { useState } from "react";
-
 export default function Experience() {
   const experiences = [
     {
-      title: "Senior Frontend Developer",
-      company: "Tech Innovators Inc.",
-      period: "2021 - Present",
+      title: "Network Engineering Intern",
+      company: "CBC (Canadian Broadcasting Corporation)",
+      period: "Sep 2024 - Sep 2025",
       description:
-        "Leading frontend development for cutting-edge web applications.",
+        "Migrating standard LAN to Cisco SDA network and managing media-production devices on spine.",
     },
     {
-      title: "Web Developer",
-      company: "Digital Solutions LLC",
-      period: "2019 - 2021",
+      title: "Camp Counsellor",
+      company: "City of Toronto",
+      period: "Jun 2022 - Aug 2024",
       description:
-        "Developed and maintained client websites using modern web technologies.",
+        "Ensured the safety of campers and made sure they had a memorable summer.",
+    },
+    {
+      title: "Naval Communicator",
+      company: "Royal Canadian Navy (Canadian Armed Forces)",
+      period: "Oct 2020 - Jun 2022",
+      description:
+        "Completed BMQ (Basic Military Qualification) in CFB Valcartier in Québec.",
     },
   ];
 
-  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
-
   return (
     <section id="experience" className="mb-12">
-      <h2 className="text-xl md:text-2xl font-bold mb-4">
+      <h2 className="text-2xl md:text-4xl mb-4">
         $ grep "work history" experience.log
       </h2>
       <ul className="space-y-4">
         {experiences.map((exp, index) => (
           <li
             key={index}
-            className={`border border-white p-4 cursor-pointer invert-colors ${
-              expandedIndex === index ? "bg-white text-black" : ""
-            }`}
-            onClick={() =>
-              setExpandedIndex(expandedIndex === index ? null : index)
-            }
+            className="border border-white p-4 cursor-pointer invert-colors"
           >
-            <h3 className="font-bold">{exp.title}</h3>
-            <p>{exp.company}</p>
-            <p className="text-sm">{exp.period}</p>
-            {expandedIndex === index && (
-              <p className="mt-2">{exp.description}</p>
-            )}
+            <h3 className="text-xl md:text-2xl">{exp.title}</h3>
+            <p className="text-xl md:text-2xl">{exp.company}</p>
+            <p className="text-md md:text-lg">{exp.period}</p>
+            <p className="mt-2 text-lg md:text-xl">{exp.description}</p>
           </li>
         ))}
       </ul>
