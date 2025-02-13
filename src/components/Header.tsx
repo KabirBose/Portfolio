@@ -33,11 +33,9 @@ export default function Header() {
 
   return (
     <header className="mb-12">
-      <h1 className="text-2xl md:text-4xl font-bold mb-4">
-        Welcome to my portfolio
-      </h1>
+      <h1 className="text-4xl md:text-6xl mb-4">Welcome to my portfolio</h1>
       <nav>
-        <ul className="flex flex-wrap gap-4">
+        <ul className="text-xl md:text-2xl flex flex-wrap gap-4">
           {[
             "About",
             "Education",
