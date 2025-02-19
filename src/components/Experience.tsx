@@ -30,10 +30,7 @@ export default function Experience() {
       </h2>
       <ul className="space-y-4">
         {experiences.map((exp, index) => (
-          <li
-            key={index}
-            className="border border-white p-4 cursor-pointer invert-colors"
-          >
+          <li key={index} className="border border-white p-4 invert-colors">
             <h3 className="text-xl md:text-2xl">{exp.title}</h3>
             <p className="text-xl md:text-2xl">{exp.company}</p>
             <p className="text-md md:text-lg">{exp.period}</p>

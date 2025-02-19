@@ -28,5 +28,5 @@ body {
 
 .invert-colors:hover,
 .invert-colors:focus {
-  @apply bg-white text-black;
+  @apply bg-neutral-800;
 }
