@@ -7,10 +7,10 @@ export default function Projects() {
       technologies: ["OSPF", "BGP", "EIGRP", "PVST+", "IPSec"],
     },
     {
-      name: "Mintly Finance",
+      name: "Pipeline",
       description:
-        "Personal finance app that uses AI to analyze your spending.",
-      technologies: ["TypeScript", "Next.js", "Plaid", "Tailwind CSS"],
+        "Chrome extension that automatically fills out job applications using AI.",
+      technologies: ["TypeScript", "ReactJS", "Puppeteer", "NodeJS"],
     },
   ];
 

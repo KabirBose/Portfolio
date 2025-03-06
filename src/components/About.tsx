@@ -7,9 +7,9 @@ export default function About() {
         I&apos;m a 3rd-year Networking & IT student at Ontario Tech University
         and a Network Engineering Intern at CBC, where I help migrate the
         standard LAN to a Cisco SDA network. I enjoy tackling challenges through
-        personal projects and always look for ways to learn more, whether
+        personal projects and always look for learning opportunities, whether
         through hands-on experiences or certifications. When I&apos;m not at my
-        desk, I&apos;m usually at the gym, trying out new foods, or hanging out
+        desk, I&apos;m usually at the gym, trying out new food, or hanging out
         with friends and family.
       </p>
     </section>

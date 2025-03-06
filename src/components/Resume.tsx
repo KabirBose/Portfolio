@@ -8,7 +8,7 @@ export default function Resume() {
       <ul className="list-disc list-inside mb-4 text-xl md:text-2xl">
         <li>1 year of professional experience in a data centre environment</li>
         <li>
-          Strong understanding Cisco devices, configurations, and protocols
+          Strong understanding of Cisco devices, configurations, and protocols
         </li>
         <li>
           Proficient in JavaScript, C++, Python, and respective frameworks

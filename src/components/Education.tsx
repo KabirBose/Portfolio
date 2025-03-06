@@ -5,11 +5,6 @@ export default function Education() {
       school: "Ontario Tech University",
       year: "Sep 2022 - Apr 2027",
     },
-    {
-      degree: "CCNA (Cisco Certified Network Associate)",
-      school: "Cisco",
-      year: "Dec 2025",
-    },
   ];
 
   return (

@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, Phone, CodeSquare } from "lucide-react";
 
 export default function Contact() {
   const socialLinks = [
@@ -7,6 +7,11 @@ export default function Contact() {
       icon: Linkedin,
       href: "https://www.linkedin.com/in/kabirbose/",
       label: "LinkedIn",
+    },
+    {
+      icon: CodeSquare,
+      href: "https://leetcode.com/u/kabirbose04/",
+      label: "LeetCode",
     },
     {
       icon: Mail,
