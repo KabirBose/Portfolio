@@ -1,7 +1,7 @@
 export default function Education() {
   const education = [
     {
-      degree: "Bachelor of Technology (Honours) in Networking & IT",
+      degree: "Bachelor of Information Technology [BIT] (Honours) in Networking & IT Security",
       school: "Ontario Tech University",
       year: "Sep 2022 - Apr 2027",
     },
